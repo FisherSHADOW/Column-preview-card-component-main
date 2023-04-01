@@ -1,0 +1,31 @@
+body{
+    background-color: burlywood;
+    width: 1440px;
+    position: fixed
+}
+.main-box{
+    width: 1050px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
+.left-col{
+    background-color: rgb(252, 38, 0);
+    width: 350px;
+    height: 550px;
+    position: ;
+
+}
+.left-col{
+    background-color: aquamarine;
+    width: 350px;
+    height: 550px;
+
+}
+.left-col{
+    background-color: rgb(83, 4, 230);
+    width: 350px;
+    height: 550px;
+
+}

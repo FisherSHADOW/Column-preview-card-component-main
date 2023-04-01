@@ -9,16 +9,20 @@
 body{
     background-color: rgba(212, 209, 196, 0.76);
     width: 1440px;
-    position: fixed
+    /* min-height: 100vh; */
+    position: fixed;
+    
 }
 .main-box{
-    border-radius: 15px;
+    border-radius: 16px;
     width: 1050px;
     height: 550px;
     background-color: black;
     position: absolute;
     top: 200px;
     left: 420px;
+    filter: drop-shadow(0 0px 10px #777474);
+    
 }
 .left-col{
     background-color: hsl(31, 77%, 52%);

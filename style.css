@@ -5,6 +5,7 @@ body{
 }
 .main-box{
     width: 1050px;
+    height: 550px;
     background-color: black;
     position: absolute;
     top: 200px;
@@ -14,18 +15,23 @@ body{
     background-color: rgb(252, 38, 0);
     width: 350px;
     height: 550px;
-    position: ;
+    
 
 }
-.left-col{
+.middle-col{
     background-color: aquamarine;
     width: 350px;
     height: 550px;
+    position: relative;
+    left: 350px;
+    top: -550px;
 
 }
-.left-col{
-    background-color: rgb(83, 4, 230);
+.right-col{
+    background-color: rgb(153, 1, 255);
     width: 350px;
     height: 550px;
-
+    position: relative;
+    left: 700px;
+    top: -1100px;
 }

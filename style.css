@@ -7,7 +7,7 @@
     src: url(./assets/fonts/LexendDeca-Light.ttf);
 }
 body{
-    background-color: burlywood;
+    background-color: rgba(212, 209, 196, 0.76);
     width: 1440px;
     position: fixed
 }

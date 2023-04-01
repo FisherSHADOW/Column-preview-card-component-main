@@ -82,19 +82,97 @@ p{
     height: auto;
     position: absolute;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .SUVS{
     width: 90px;
     height: auto;
     position: absolute;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .LUXURY{
     width: 90px;
     height: auto;
     position: absolute;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 50px;
+}
+.btn-left{
+    font-family: texts;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(31, 77%, 52%);
+    padding: 15px 35px;
+    border: white solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 35px;
+    transition : 216ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 58px;
+}
+.btn-left:hover{
+    transition : 1ms;
+    padding: 15px 35px;
+    /* transform : translateY(-0px); */
+    background-color: #ffffff;
+    color: hsl(31, 77%, 52%);
+    border: 2px white solid;
+}
+.btn-mid{
+    font-family: texts;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(184, 100%, 22%);
+    padding: 15px 35px;
+    border: white solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 35px;
+    transition : 216ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 58px;
+}
+.btn-mid:hover{
+    transition : 1ms;
+    padding: 15px 35px;
+    /* transform : translateY(-0px); */
+    background-color: #ffffff;
+    color: hsl(184, 100%, 22%);
+    border: 2px white solid;
+}
+.btn-right{
+    font-family: texts;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(179, 100%, 13%);
+    padding: 15px 35px;
+    border: white solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 35px;
+    transition : 216ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 58px;
+}
+.btn-right:hover{
+    transition : 1ms;
+    padding: 15px 35px;
+    /* transform : translateY(-0px); */
+    background-color: #ffffff;
+    color: hsl(179, 100%, 13%);
+    border: 2px white solid;
 }

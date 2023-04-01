@@ -180,3 +180,15 @@ p{
     color: hsl(179, 100%, 13%);
     border: 2px white solid;
 }
+/* footer attribue */
+.attribution {
+    font-size: 12px;
+    padding: 30px;
+    position: absolute;
+    top: 870px;
+    left: 752px;
+    font-family: texts;
+    color: rgb(3, 3, 3);
+    
+    
+}

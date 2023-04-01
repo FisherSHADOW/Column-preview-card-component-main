@@ -4,6 +4,7 @@ body{
     position: fixed
 }
 .main-box{
+    border-radius: 15px;
     width: 1050px;
     height: 550px;
     background-color: black;
@@ -15,23 +16,24 @@ body{
     background-color: rgb(252, 38, 0);
     width: 350px;
     height: 550px;
+    border-radius: 15 0px 0px 15;
+    position: absolute;
     
-
 }
 .middle-col{
     background-color: aquamarine;
     width: 350px;
     height: 550px;
-    position: relative;
+    position: absolute;
     left: 350px;
-    top: -550px;
-
+    
 }
 .right-col{
     background-color: rgb(153, 1, 255);
     width: 350px;
     height: 550px;
-    position: relative;
+    position: absolute;
     left: 700px;
-    top: -1100px;
+    border-radius: 0 15px 15px 0;
 }
+
